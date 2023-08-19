@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    margin: auto;
+    border-radius: 5px;
+    background-color: #00ffff;
+    text-align: center;
+    width: 150px;
+    margin-bottom: 40px;
+}
+
+main p {
+    color: #666;
+    margin: 8px auto;
+    line-height: 27px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    width: 200px;
+    background-color: aqua;
+    color: #333;
+    border-radius: 5px;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+nav a {
+    color: #666;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-left: 3px solid green;
+    background-color: white;
+}
+
+.area-content {
+    display: none;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    margin-top: 1rem;
+}
+
+.sub{
+    color: black;
+}
+
+button{
+    border: none;
+    background: aqua;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px auto;
+
+}
+
+input[type="radio"] {
+    display: block;
+}
+
+label{
+    color: #333;
+}
+
+
+@media only screen and (max-width: 600px) {
+    img{
+        width: 100%;
+    }
+}
+
+
