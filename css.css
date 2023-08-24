@@ -18,7 +18,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.titulo{
+#titulo{
     margin: auto;
     border-radius: 5px;
     background-color: #00ffff;
@@ -36,6 +36,7 @@ main p {
 a{
     text-decoration: none;
     color: blue;
+    background-color: #f9f9f9;
 }
 
 .card {
@@ -70,7 +71,6 @@ nav a {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-left: 3px solid green;
-    background-color: white;
 }
 
 .area-content {
@@ -94,11 +94,13 @@ button{
 }
 
 input[type="radio"] {
-    display: block;
+    flex-direction: column;
 }
+
 
 label{
     color: #333;
+    padding: 10px;
 }
 
 
