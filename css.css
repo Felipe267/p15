@@ -94,13 +94,15 @@ button{
 }
 
 input[type="radio"] {
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 
 label{
-    color: #333;
-    padding: 10px;
+    display: flex;
+    padding: 8px;
 }
 
 
