@@ -74,16 +74,20 @@ const areaToggleLinks = document.querySelectorAll('.area-toggle');
             {
                 questions: [
                     {
-                        question: "Qual é o maior rio do mundo?",
-                        options: ["Nilo", "Amazonas", "Mississippi", "Yangtzé", "Ganges"],
-                        correctAnswer: "Amazonas"
+                        question: "1. Qual é a geometria molecular da molécula de água (H2O)?",
+                        options: ["Linear", "Trigonal plana", "Angular", "Tetraédrica","Bipiramidal"],
+                        correctAnswer: "Angular"
                     },
                     {
-                        question: "Qual é o maior deserto do mundo?",
-                        options: ["Saara", "Atacama", "Gobi", "Antártico", "Arábico"],
-                        correctAnswer: "Saara"
+                        question: "2. Qual é a principal força intermolecular presente nos hidrocarbonetos não polares, como o metano (CH4)?",
+                        options: ["Ligações de hidrogênio", "Forças dipolo-dipolo", "Forças de dispersão de London", "Ligações covalentes", "NDA"],
+                        correctAnswer: "Forças de dispersão de London"
+                    },
+                    {
+                        question: "3. Qual das seguintes forças intermoleculares é a mais fraca?",
+                        options: ["Ligações de hidrogênio", "Forças dipolo-dipolo", "Forças de dispersão de London", "Ligações covalentes", "NDA"],
+                        correctAnswer: "Ligações covalentes"
                     }
-                    // Adicione mais perguntas aqui
                 ],
                 questionContainer: document.getElementById("questionContainer3"),
                 questionElement: document.getElementById("question3"),
