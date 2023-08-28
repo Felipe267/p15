@@ -138,6 +138,35 @@ const areaToggleLinks = document.querySelectorAll('.area-toggle');
                 checkButton: document.getElementById("checkButton4"),
                 currentQuestionIndex: 0,
                 score: 0
+            },
+            {
+                questions: [
+                    {
+                        question: "1. Qual dos seguintes gases é considerado um dos principais responsáveis pelo efeito estufa e contribui para o aquecimento global?",
+                        options: ["Oxigênio (O2)", "Nitrogênio (N2)", "Dióxido de enxofre (SO2)", "Metano (CH4)", "Hidrogênio (H2)"],
+                        correctAnswer: "Metano (CH4)"
+                    },
+                    {
+                        question: "2. Para reduzir a poluição da água causada por nutrientes em excesso, como nitrogênio e fósforo, é importante controlar a:",
+                        options: ["Erosão do solo", "Acidificação atmosférica", "Formação de camada de ozônio", "Emissão de dióxido de carbono (CO2)", "Dispersão de compostos orgânicos voláteis"],
+                        correctAnswer: "Erosão do solo"
+                    },
+                    {
+                        question: "3. Qual é o principal objetivo da separação e reciclagem de resíduos sólidos, como plásticos, papel e vidro?",
+                        options: ["Aumentar a produção de resíduos", "Reduzir a geração de energia", "Promover a degradação ambiental", "Diminuir a extração de matérias-primas", "Aumentar a dependência de aterros sanitários"],
+                        correctAnswer: "Diminuir a extração de matérias-primas"
+                    }
+                ],
+                questionContainer: document.getElementById("questionContainer5"),
+                questionElement: document.getElementById("question5"),
+                quizForm: document.getElementById("quizForm5"),
+                resultElement: document.getElementById("result5"),
+                scoreContainer: document.getElementById("scoreContainer5"),
+                scoreElement: document.getElementById("score5"),
+                totalQuestionsElement: document.getElementById("totalQuestions5"),
+                checkButton: document.getElementById("checkButton5"),
+                currentQuestionIndex: 0,
+                score: 0
             }
         ];
 
