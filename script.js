@@ -99,6 +99,45 @@ const areaToggleLinks = document.querySelectorAll('.area-toggle');
                 checkButton: document.getElementById("checkButton3"),
                 currentQuestionIndex: 0,
                 score: 0
+            },
+            {
+                questions: [
+                    {
+                        question: "1. Qual das seguintes afirmações sobre entalpia está correta?",
+                        options: ["A entalpia de reação é a energia total de um sistema", "A variação de entalpia (∆H) é positiva para reações exotérmicas", "A entalpia padrão de formação de elementos simples é sempre negativa", "A entalpia não está relacionada com a quantidade de calor trocada em uma reação", "A lei da conservação de energia não se aplica às mudanças de entalpia"],
+                        correctAnswer: "A variação de entalpia (∆H) é positiva para reações exotérmicas"
+                    },
+                    {
+                        question: "2. O que é a lei da conservação de energia em relação à entalpia?",
+                        options: ["A entalpia de um sistema isolado aumenta constantemente", "A entalpia de um sistema isolado diminui constantemente", "A entalpia total de um sistema isolado permanece constante", "A entalpia só é conservada em sistemas em equilíbrio térmico", "A entalpia é apenas uma forma de energia potencial"],
+                        correctAnswer: "A entalpia total de um sistema isolado permanece constante"
+                    },
+                    {
+                        question: "3. Em uma reação química, se a energia liberada na formação de produtos for maior do que a energia absorvida na quebra dos reagentes, então:",
+                        options: ["A reação é endotérmica", "A reação é exotérmica", "A reação é isotérmica", "A reação não envolve troca de energia", "A reação é espontânea"],
+                        correctAnswer: "A reação é endotérmica"
+                    },
+                    {
+                        question: "4. Qual é o valor da variação de entalpia padrão (∆H°) para uma reação que libera 150 kJ de energia?",
+                        options: ["+150 kJ", "-150 kJ", "+1.50 kJ", "-1.50 kJ", "0 kJ"],
+                        correctAnswer: "-150 kJ"
+                    },
+                    {
+                        question: "Se uma reação química ocorre espontaneamente e libera calor para o ambiente, como você descreveria o valor da entalpia padrão (∆H°) para essa reação?",
+                        options: ["∆H° é positivo, indicando uma reação endotérmica", "∆H° é negativo, indicando uma reação exotérmica", "∆H° é igual a zero, indicando que nenhuma energia é trocada", "∆H° não tem relação com a espontaneidade de uma reação", "∆H° é sempre positivo para reações espontâneas"],
+                        correctAnswer: "∆H° é negativo, indicando uma reação exotérmica"
+                    }    
+                ],
+                questionContainer: document.getElementById("questionContainer4"),
+                questionElement: document.getElementById("question4"),
+                quizForm: document.getElementById("quizForm4"),
+                resultElement: document.getElementById("result4"),
+                scoreContainer: document.getElementById("scoreContainer4"),
+                scoreElement: document.getElementById("score4"),
+                totalQuestionsElement: document.getElementById("totalQuestions4"),
+                checkButton: document.getElementById("checkButton4"),
+                currentQuestionIndex: 0,
+                score: 0
             }
         ];
 
